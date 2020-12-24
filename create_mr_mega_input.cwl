@@ -8,7 +8,7 @@ $namespaces:
 requirements:
 - class: ShellCommandRequirement
 - class: DockerRequirement
-  dockerPull: dayam/mr_mega:latest
+  dockerPull: quay.io/mdaya/mr_mega_qt:1.0
 
 inputs:
 - id: output_file_name
